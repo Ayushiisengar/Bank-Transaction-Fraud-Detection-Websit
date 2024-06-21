@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background: url('https://feedzai.com/aptopees/2021/05/20210505_Header_APP_Fraud_feedzai.jpg') no-repeat center center fixed, #344E41;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+body header{
+    height: 50px;
+    width: 100%;
+    background-color: #132a13;
+}
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-right: 15px;
+}
+body header nav p{
+    text-decoration: none;
+    color: #ecf39e;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* Main styles */
+main {
+    text-align: center;
+    justify-content: center;
+    height: 300px;
+    width: 1480px;
+    
+    margin-top: 200px;
+    
+    color: #132A13 ;
+    font-size:25px;
+    font-weight: bold;
+}
+
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: row; /* Align items horizontally */
+    flex-wrap: wrap; /* Allow items to wrap */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    padding: 20px; /* Add padding for spacing */
+    text-align: center;
+    text-align: center;
+    justify-content: center;
+}
+
+/* Radio button styles */
+input[type="radio"] {
+    display: none; /* Hide the actual radio buttons */
+}
+
+/* Label styles */
+label {
+    display: block;
+    width: 400px; /* Set width for boxes */
+    height: 120px; /* Set height for boxes */
+    border: 1px solid #ccc; /* Add border to create boxes */
+    padding: 20px; /* Add padding for spacing */
+    margin: 10px; /* Add margin for spacing */
+    cursor: pointer; /* Change cursor to pointer */
+    text-align: center; /* Center text horizontally */
+    line-height: 1.4; /* Adjust line height for better readability */
+    background-color: rgba(49, 87, 44, 0.4); /* Transparent white background */
+    transition: background-color 0.3s ease; /* Smooth transition */
+    font-size: 40px; /* Adjust font size */
+    color: #132A13; /* Text color */
+    text-align: center;
+    justify-content: center;
+}
+
+/* Hover effect on labels */
+label:hover {
+    background-color: #ddd; /* Light gray background on hover */
+}
+
+/* Styling when label is clicked (pseudo-class) */
+input[type="radio"]:checked + label {
+    background-color: #999; /* Darker background color when checked */
+    color: #fff; /* White text color */
+}
+
+/* Select Model button styles */
+input[type="submit"] {
+    padding: 15px 30px; /* Add padding for button */
+    margin-top: 20px; /* Add top margin */
+    background-color: #007bff; /* Blue background color */
+    color: #fff; /* White text color */
+    border: none; /* Remove border */
+    cursor: pointer; /* Change cursor to pointer */
+    font-size: 20px; /* Adjust font size */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+/* Hover effect on button */
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}

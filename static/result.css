@@ -1,0 +1,56 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    height: 100%;
+    width: 100%;
+    background: url('https://feedzai.com/aptopees/2021/05/20210505_Header_APP_Fraud_feedzai.jpg') no-repeat center center fixed, #344E41;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #132A13;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Heading styles */
+h1 {
+    font-size: 36px;
+    color: #ECF39E;
+    margin-bottom: 20px;
+}
+
+/* Paragraph styles */
+p {
+    font-size: 24px;
+    color: #132A13;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Link styles */
+a {
+    font-size: 20px;
+    color: #007BFF;
+    text-decoration: none;
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect on link */
+a:hover {
+    background-color: #0056B3;
+    color: #FFF;
+}

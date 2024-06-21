@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Model</title>
+    <link rel="stylesheet" href="/static/model.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <p>Select Model for Prediction</p>
+        </nav>
+    </header>
+    <main>
+        <form action="{{ url_for('model_selection') }}" method="post">
+            {% for model in models %}
+            <input type="radio" id="{{ model }}" name="model" value="{{ model }}">
+            <label for="{{ model }}">{{ model }}</label><br>
+            {% endfor %}
+            <input type="submit" value="Select Model">
+        </form>
+    </main>
+    
+</body>
+</html>

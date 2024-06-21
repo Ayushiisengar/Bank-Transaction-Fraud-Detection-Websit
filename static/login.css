@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background: url('https://feedzai.com/aptopees/2021/05/20210505_Header_APP_Fraud_feedzai.jpg') no-repeat center center fixed, #344E41;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+body header{
+    height: 50px;
+    width: 100%;
+    background-color: #132a13;
+}
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-right: 15px;
+}
+body header nav p{
+    text-decoration: none;
+    color: #ecf39e;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+main{
+    height: 300px;
+    width: 500px;
+    margin-left:500px;
+    margin-right: 150px;
+    margin-top: 200px;
+    background-color:  #ecf39e;
+    color: #132A13 ;
+    font-size:25px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+form {
+    border: none;
+    background: none;
+    text-align: left;
+    max-width: 300px; /* Example: Limit form width */
+    margin: 0 auto; /* Center align horizontally */
+}
+
+/* Input styles */
+input[type="text"],
+input[type="password"],
+input[type="submit"] {
+    border: none;
+    border-bottom: 1px solid #000;
+    background: none;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+}
+input[type="submit"] {
+    background-color: transparent;
+    cursor: pointer;
+}

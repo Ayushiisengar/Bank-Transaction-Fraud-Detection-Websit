@@ -1,0 +1,95 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    height: 100%;
+    width: 100%;
+    background: url('https://feedzai.com/aptopees/2021/05/20210505_Header_APP_Fraud_feedzai.jpg') no-repeat center center fixed, #344E41;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #132A13;
+    text-align: center;
+}
+
+/* Header styles */
+header {
+    height: 50px;
+    width: 100%;
+    background-color: #132A13;
+}
+
+/* Navigation styles */
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-right: 15px;
+}
+
+header nav p {
+    text-decoration: none;
+    color: #ECF39E;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Main styles */
+main {
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #132A13;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 50px; /* Adjust margin top as needed */
+}
+
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center;
+    margin-top: 20px; /* Add margin top */
+}
+
+/* Label styles */
+label {
+    font-size: 20px; /* Adjust font size */
+     /* Add top margin */
+}
+
+/* Input styles */
+input[type="text"] {
+     /* Add bottom margin for text inputs */
+    width: 200px; /* Set width for text inputs */
+    font-size: 16px; /* Adjust font size */
+}
+
+/* Submit button styles */
+input[type="submit"] {
+   /* Add top margin */
+    background-color: #007BFF; /* Blue background color */
+    color: #FFF; /* White text color */
+    border: none; /* Remove border */
+    cursor: pointer; /* Change cursor to pointer */
+    font-size: 20px; /* Adjust font size */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+/* Hover effect on button */
+input[type="submit"]:hover {
+    background-color: #0056B3; /* Darker blue on hover */
+}

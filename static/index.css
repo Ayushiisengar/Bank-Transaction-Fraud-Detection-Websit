@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background: url('https://feedzai.com/aptopees/2021/05/20210505_Header_APP_Fraud_feedzai.jpg') no-repeat center center fixed, #344E41;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+body header{
+    height: 50px;
+    width: 100%;
+    background-color: #132a13;
+}
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    height: 100%;
+    margin-right: 15px;
+}
+body header nav div a{
+    text-decoration: none;
+    color: #ecf39e;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+main{
+    height: 500px;
+    width: 1150px;
+    margin-left:150px;
+    margin-right: 150px;
+    margin-top: 100px;
+    
+    display: flex;
+    flex-direction: column;
+}
+main div {
+     /* Space between the divs */
+    height: 250px;
+    width: 1150px; /* Optional: Adjust width as needed */
+    background-color: rgba(255, 255, 255, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main div p{
+    color: #132A13 ;
+    font-size:50px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+footer{
+    height: 100px;
+    width: 100%;
+    background-color: #132a13;
+}
+footer p{
+    color: #ecf39e ;
+    font-size:20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+

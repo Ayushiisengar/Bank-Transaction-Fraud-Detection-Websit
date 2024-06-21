@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predict</title>
+    <link rel="stylesheet" href="/static/predict.css">
+</head>
+<body>
+    <header><nav><p>PREDICT</p></nav></header>
+    <main>
+        <form action="{{ url_for('predict') }}" method="post">
+            {% for i in range(1, 7) %}
+            <label for="feature{{ i }}">Feature {{ i }}:</label>
+            <input type="text" id="feature{{ i }}" name="feature{{ i }}"><br><br>
+            {% endfor %}
+            <input type="submit" value="Predict">
+        </form>
+    </main>
+    
+</body>
+</html>
